@@ -1,89 +1,359 @@
 <!DOCTYPE html>
 <html lang="pt">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Page</title>
+    <title>Project</title>
     <link rel="Stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
- 
+
     <link rel="Stylesheet" href="style.css">
-   
- 
-  
- 
-        <!-- CSS -->
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,600">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.6/css/all.css">
-        <link rel="stylesheet" href="assets/css/animate.css">
-        <link rel="stylesheet" href="assets/css/style.css">
-        <link rel="stylesheet" href="assets/css/media-queries.css">
- 
-        <!-- Favicon and touch icons -->
-        <link rel="shortcut icon" href="assets/ico/favicon.png">
-        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
-        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
-        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
-        <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
- 
+    <link rel="Stylesheet" href="Slider.css">
+    <link rel="Stylesheet" href="FAQs.css">
+
+
+
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,600">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.6/css/all.css">
+
+
+
+
 
 </head>
-<body>
+
+<body bgcolor: orange>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <!-- Top menu -->
-<nav class="navbar navbar-dark fixed-top navbar-expand-md navbar-no-bg">
-    <div class="container">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                    <a class="nav-link scroll-link" href="file:///C:/Users/DELL/Desktop/WT/Home_Page.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link scroll-link" href="#services">Appointment</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link scroll-link" href="#portfolio">About Us</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link scroll-link" href="#testimonials">Services</a>
-                </li>
-                
-                        </ul>
-            <div class="navbar-text">
-                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                <a href="#"><i class="fab fa-dribbble"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
-                <a href="#"><i class="fab fa-pinterest"></i></a>
+    <nav class="navbar navbar-dark fixed-top navbar-expand-md navbar-no-bg">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link scroll-link" href="#top-content">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link scroll-link" href="file:///C:/Users/DELL/Desktop/Web/Project1%20-%20Copy%20(2)/index.html">Appointment</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link scroll-link" href="#about">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link scroll-link" href="#Services">Services</a>
+                    </li>
+
+                </ul>
+                <div class="navbar-text">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-dribbble"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-pinterest"></i></a>
+                </div>
+
             </div>
         </div>
+    </nav>
+
+    <!-- Top content -->
+    <div class="top-content" id="top-content">
+
+        <div class="inner-bg">
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-md-3"></div>
+                    <div class="col-md-6 ">
+                        <div class="logo">
+
+                           <center> <img src="Images/Logo2.jpeg" width="600" height="500" border-radius="50px"> </center>
+
+                        </div>
+
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
     </div>
-</nav>
-<section id="header">
-    <div class="container">
-      <img class="img-rounded" src="Images/Outside_Look.jpeg" style="width:100%">
-        <div class="header-text">
-            <h1>This is our website, you may know</h1>
-            <span class="square"></span>
-            <p>Hi, I am here to take a test to ensure the world that you are fine and fit.
-                Your mobile is hanged.
-                My home is right of your house.
-                Contact us for more information.
-            </p>
-           
+
+    <!----About-->
+
+    <section id="about">
+        <div class="about-left-col">
+            <div class="about-row">
+                <div class="about-col">
+                    <img class="img-rounded" src="Images/Dr.  Gorakh Mandrupkar.jpeg" style="width: 100%">
+                    <h4>MBBS DGO</h4>
+                    <h2>
+                        Dr. Gorakh Mandrupkar
+                    </h2>
+                </div>
+                <div class="about-col">
+                    <img class="img-rounded" src="Images/Dr.  Saiee Gorakh Mandrupkar.jpeg" style="width: 100%">
+                    <h4>MBBS DGO</h4>
+                    <h2>
+                        Dr. Saiee Gorakh Mandrupkar
+                    </h2>
+                </div>
+            </div>
+        </div>
+        <div class="about-right-col">
+            <div class="about-text">
+                <h1>About Us</h1>
+                <span class="square"></span>
+                <p>
+                </p><br><br>
+                <div class="line">
+                    <span class="line-1"></span><br>
+                    <span class="line-2"></span><br>
+                    <span class="line-3"></span>
+                </div>
+
+                <h2>Being in control of your life and having realistic expectations about your day-to-day challenges are
+                    the keys to stress management, which is perhaps the most important ingredient to living a happy,
+                    healthy and rewarding life.
+
+
+                </h2>
+
+                <h3>----Marilu Henner-----</h3>
+            </div>
+        </div>
+    </section>
+
+    <!----features---->
+
+
+    <section id="features">
+        <div class="feature-row">
+            <div class="feature-col">
+                <img class="img-rounded" src="Images/Inside-Look1.jpeg" style="width: 90%">
+                <h4>Waiting Room1</h4>
+                <p>Switch between your computer,tablet or mobile
+                    device.
+                </p>
+            </div>
+            <div class="feature-col">
+                <img class="img-rounded" src="Images/Inside_Look.jpeg" style="width: 90%">
+                <h4>Waiting Room2</h4>
+                <p>Switch between your computer,tablet or mobile
+                    device.
+                </p>
+            </div>
+            <div class="feature-col">
+                <img class="img-rounded" src="Images/Outside_Look.jpeg" style="width: 90%">
+                <h4>Clinic</h4>
+                <p>Switch between your computer,tablet or mobile
+                    device.
+                </p>
+            </div>
+
+            <div class="feature-col">
+                <img class="img-rounded" src="Images/Staff.jpeg" style="width: 90%">
+                <h4>Staff</h4>
+                <p>Switch between your computer,tablet or mobile
+                    device.
+                </p>
+            </div>
+
+        </div>
+        <div class="feature-btn">
             <div class="line">
                 <span class="line-1"></span><br>
-                <span class="line-2"></span><br>     
+                <span class="line-2"></span><br>
                 <span class="line-3"></span>
             </div>
         </div>
-    </div>
+    </section>
 
-</section>  
+
+    
+
+    <!----features---->
+
+
+    <section id="Services">
+        <h3>Services</h3>
+        <div class="slideshow-container">
+
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides">
+                <center><img src="Images/Blastocyst2.png" style="width:50%"></center>
+            </div>
+
+            <div class="mySlides">
+                <center><img src="Images/Cryopreserv2.png" style="width:50%"></center>
+            </div>
+
+            <div class="mySlides">
+                <center><img src="Images/Donor2.png" style="width:50%"></center>
+            </div>
+
+            <div class="mySlides">
+                <center><img src="Images/Laproscopy2.png" style="width:50%"></center>
+            </div>
+
+            <div class="mySlides">
+                <center><img src="Images/Laser2.jpg" style="width:50%"></center>
+            </div>
+
+            <div class="mySlides">
+                <center><img src="Images/ICSI2.jpg" style="width:50%"></center>
+            </div>
+
+            <div class="mySlides">
+                <center><img src="Images/Infertility2.jpg" style="width:50%"></center>
+            </div>
+
+            <div class="mySlides">
+                <center><img src="Images/IUI2.jpg" style="width:50%"></center>
+            </div>
+
+            <div class="mySlides">
+                <center><img src="Images/IVF2.jpg" style="width:50%"></center>
+            </div>
+
+            <div class="mySlides">
+                <center><img src="Images/Sonography2.png" style="width:50%"></center>
+            </div>
+
+        </div>
+        <br>
+
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+            <span class="dot" onclick="currentSlide(6)"></span>
+            <span class="dot" onclick="currentSlide(7)"></span>
+            <span class="dot" onclick="currentSlide(8)"></span>
+            <span class="dot" onclick="currentSlide(9)"></span>
+            <span class="dot" onclick="currentSlide(10)"></span>
+        </div>
+
+        <script src="New1.js"></script>
+
+
+    </section>
+
+
+
+    <center><h2>FAQ'S</h2></center>
+
+        <button class="accordion">What is IVF treatment?</button>
+        <div class="panel">
+          <p>During IVF , mature eggs are collected (retrieved) from ovaries and fertilized by sperm in a lab. Then the fertilized egg (embryo) or eggs (embryos) are transferred to a uterus</p>
+        </div>
+        
+        <button class="accordion">What is IUI process?</button>
+        <div class="panel">
+          <p>Intrauterine insemination (IUI) — a type of artificial insemination — is a procedure for treating infertility. Sperm that have been washed and concentrated are placed directly in your uterus around the time your ovary releases one or more eggs to be fertilized.</p>
+        </div>
+        
+        <button class="accordion">Cost of IVF program?</button>
+        <div class="panel">
+          <p>The average cost of an IVF cycle can be anywhere between Rs 2.5 lakhs and Rs 4 lakhs.</p>
+        </div>
+        
+        <button class="accordion">How much time IVF takes?</button>
+        <div class="panel">
+          <p>. One full cycle of IVF takes about three weeks. Sometimes these steps are split into different parts and the process can take longer.</p>
+        </div>
+        
+        <button class="accordion">What Treatment is available for low sperm?</button>
+        <div class="panel">
+          <p>Low sperm count can also be known as oligospermia. One may undergo to ICSI (Intracytoplasmic Sperm Injection) where a single sperm is injected to matured egg. Adapting this treatment will leads to elevate the chances of conceiving. Besides this, the treatment is useful especially in case of male infertility, low sperm motility and poor sperm morphology.</p>
+        </div>
+        
+        <h5><b>Disclaimer:</b> By submitting the form you agree to be contacted by Mandrupkar Clinic's Center for Health Skills  and associate partners through Email/Call/SMS/WhatsApp and other communication mediums.</h5>
+        
+        <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+        
+        for (i = 0; i < acc.length; i++) {
+          acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+              panel.style.display = "none";
+            } else {
+              panel.style.display = "block";
+            }
+          });
+        }
+        </script>
+
 </body>
+
+    <!-- Footer -->
+    <footer class="footer-container">
+
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-6 footer-left">
+                    <h3>Feedback</h3>
+                    <div class="contact-form">
+                        <form role="form" action="assets/contact.php" method="post">
+                            <div class="form-group">
+                                <label class="sr-only" for="contact-email">Email</label>
+                                <input type="text" name="email" placeholder="Email..."
+                                    class="contact-email form-control" id="contact-email">
+                            </div>
+                            <div class="form-group">
+                                <label class="sr-only" for="contact-subject">Subject</label>
+                                <input type="text" name="subject" placeholder="Subject..."
+                                    class="contact-subject form-control" id="contact-subject">
+                            </div>
+                            <div class="form-group">
+                                <label class="sr-only" for="contact-message">Message</label>
+                                <textarea name="message" placeholder="Message..." class="contact-message form-control"
+                                    id="contact-message"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Send message</button>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="col-md-5 offset-md-1 footer-right">
+                    <h3>Follow us</h3>
+                    <div class="footer-social">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-dribbble"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-pinterest"></i></a>
+                    </div>
+                    <div class="footer-copyright">
+                        &copy; copyright2021
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <a class="scroll-link" href="#top-content"><i class="fas fa-chevron-up"></i></a>
+        </div>
+
+    </footer>
+
+
 </html>
